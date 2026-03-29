@@ -36,9 +36,9 @@ documented, reproducible work — not certificates.
 
 | Rule | Technique | File |
 |---|---|---|
-| SSH brute force | T1110.001 | *(in progress)* |
-| Sudo privilege escalation | T1548.003 | *(in progress)* |
-| Repeated failed logins | T1078 | *(in progress)* |
+| SSH brute force | T1110.001 | [`ssh_brute_force.conf`](splunk/detections/ssh_brute_force.conf) |
+| Sudo privilege escalation | T1548.003 | [`sudo_escalation.conf`](splunk/detections/sudo_escalation.conf) |
+| Repeated failed logins | T1078 | [`repeated_failed_logins.conf`](splunk/detections/repeated_failed_logins.conf) |
 
 ## Environment
 

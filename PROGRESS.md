@@ -40,19 +40,21 @@
 ## Pillar 2 — Splunk SIEM
 
 ### Setup
-- [ ] `splunk/docker-compose.yml` written and tested
-- [ ] Splunk accessible at localhost:8000
-- [ ] `splunk/setup.md` written
+- [x] `splunk/docker-compose.yml` written and tested
+- [x] Splunk accessible at localhost:8000
+- [x] `.env` / `.env.example` secrets handling in place
+- [x] `splunk/setup.md` written
 
 ### Log ingestion
-- [ ] NixOS journal or auth logs flowing into Splunk
-- [ ] Index confirmed via Search & Reporting
+- [x] NixOS journal logs ingested via HEC (360 events)
+- [x] Synthetic auth events sent for detection testing
+- [x] Index confirmed via Search & Reporting
 
 ### Detection rules
-- [ ] SSH brute force rule created and saved as `.conf`
-- [ ] Sudo privilege escalation rule created and saved as `.conf`
-- [ ] Repeated failed login rule created and saved as `.conf`
-- [ ] All rules trigger correctly on test data
+- [x] SSH brute force rule — `splunk/detections/ssh_brute_force.conf` (T1110.001)
+- [x] Sudo privilege escalation rule — `splunk/detections/sudo_escalation.conf` (T1548.003)
+- [x] Repeated failed login rule — `splunk/detections/repeated_failed_logins.conf` (T1078)
+- [x] All rules verified returning results against test data
 
 ### Documentation
 - [ ] Dashboard screenshot saved: `splunk/screenshots/`
