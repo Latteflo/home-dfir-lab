@@ -1,3 +1,7 @@
+# Secrets — never commit
+splunk/.env
+**/.env
+
 # Memory dumps — large binaries, not committed
 volatility/cases/dumps/
 
