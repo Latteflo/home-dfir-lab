@@ -56,18 +56,23 @@ binary files and are not committed to the repo.
 
 ## 4. Run your first command
 
-From the repo root, inside nix-shell:
+From the repo root:
 
 ```bash
-vol -f volatility/cases/dumps/MemLabs-Lab1.raw windows.info
+vol -f volatility/cases/dumps/MemoryDump_Lab1.raw \
+    -s ~/.cache/volatility3/symbols \
+    windows.info
 ```
 
 This confirms Volatility can read the dump and identifies the Windows version.
 
 ## Notes
 
-- Volatility 3 fetches Windows symbol tables from Microsoft's public symbol
-  server on first use. This requires internet access and may take a minute.
-  Symbols are cached in `~/.cache/volatility3/` after the first run.
+- **NixOS / read-only Nix store:** The system Volatility package cannot write
+  symbol tables into `/nix/store`. Always pass `-s ~/.cache/volatility3/symbols`
+  on every command. Create the directory first with
+  `mkdir -p ~/.cache/volatility3/symbols`.
+- Symbols are downloaded from Microsoft's public symbol server on first use
+  and cached — subsequent runs are fast.
 - All case-specific commands and findings are documented in
   `volatility/cases/memlab-case1.md`.

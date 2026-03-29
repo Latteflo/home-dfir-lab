@@ -27,7 +27,7 @@ documented, reproducible work — not certificates.
 
 | Case | Artefacts Recovered | Report |
 |---|---|---|
-| MemLabs Lab 1 | *(in progress)* | — |
+| MemLabs Lab 1 | Process tree (2 sessions), NTLM hashes (5 accounts), WinRAR archive artefact, DumpIt.exe capture chain | [Report](volatility/cases/memlab-case1.md) |
 | MemLabs Lab 2 | *(in progress)* | — |
 
 ## Detection rules (Splunk)

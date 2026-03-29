@@ -49,6 +49,7 @@ sha256sum <file>
 | Flag | Meaning |
 |---|---|
 | `-f <file>` | Memory dump path |
+| `-s <dir>` | Writable symbol directory (required on NixOS — use `~/.cache/volatility3/symbols`) |
 | `-o <dir>` | Output directory for dumps |
 | `--pid <PID>` | Filter to a specific process |
 | `-r <regex>` | Filter output by regex |

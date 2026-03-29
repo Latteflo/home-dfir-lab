@@ -3,16 +3,16 @@
 ## Pillar 1 — Volatility Memory Forensics
 
 ### Setup
-- [ ] Volatility 3 installed and verified (`vol.py --help`)
-- [ ] `volatility/setup.md` written
-- [ ] `volatility/cheatsheet.md` written
+- [x] Volatility 3 installed and verified (`vol -h`)
+- [x] `volatility/setup.md` written (includes NixOS symbol-dir workaround)
+- [x] `volatility/cheatsheet.md` written
 
 ### Case 1 — MemLabs Lab 1
-- [ ] Memory dump downloaded and verified
-- [ ] Process tree extracted and analysed
-- [ ] Network connections reconstructed
-- [ ] Suspicious artefacts identified
-- [ ] Incident report written: `volatility/cases/lab1-report.md`
+- [x] Memory dump downloaded and verified
+- [x] Process tree extracted and analysed
+- [x] Network connections reconstructed
+- [x] Suspicious artefacts identified
+- [x] Incident report written: `volatility/cases/memlab-case1.md`
 
 ### Case 2 — MemLabs Lab 2
 - [ ] Memory dump downloaded and verified
