@@ -1,0 +1,8 @@
+# Memory dumps — large binaries, not committed
+volatility/cases/dumps/
+
+# Malware samples — never commit
+sandbox/samples/
+
+# Splunk persistent data
+splunk/data/
