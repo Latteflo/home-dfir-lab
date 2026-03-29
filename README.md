@@ -28,7 +28,9 @@ documented, reproducible work — not certificates.
 | Case | Artefacts Recovered | Report |
 |---|---|---|
 | MemLabs Lab 1 | Process tree (2 sessions), NTLM hashes (5 accounts), WinRAR archive artefact, DumpIt.exe capture chain | [Report](volatility/cases/memlab-case1.md) |
-| MemLabs Lab 2 | *(in progress)* | — |
+| MemLabs Lab 2 | KeePass database (`Hidden.kdbx`) in memory, Notepad opening binary credential store, NTLM hashes | [Report](volatility/cases/memlab-case2.md) |
+| MemLabs Lab 3 | `evilscript.py` on Desktop, dual Notepad review, msiexec installation artefacts, x86 PAE image | [Report](volatility/cases/memlab-case3.md) |
+| Challenge | Active cmd.exe session, minimal process set, NT hash rotation confirmed vs Lab 3 | [Report](volatility/cases/challenge-case.md) |
 
 ## Detection rules (Splunk)
 

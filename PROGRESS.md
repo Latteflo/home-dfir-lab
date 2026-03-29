@@ -15,11 +15,25 @@
 - [x] Incident report written: `volatility/cases/memlab-case1.md`
 
 ### Case 2 — MemLabs Lab 2
-- [ ] Memory dump downloaded and verified
-- [ ] Process tree extracted and analysed
-- [ ] Network connections reconstructed
-- [ ] Suspicious artefacts identified
-- [ ] Incident report written: `volatility/cases/lab2-report.md`
+- [x] Memory dump downloaded and verified
+- [x] Process tree extracted and analysed
+- [x] Network connections reconstructed
+- [x] Suspicious artefacts identified
+- [x] Incident report written: `volatility/cases/memlab-case2.md`
+
+### Case 3 — MemLabs Lab 3
+- [x] Memory dump downloaded and verified
+- [x] Process tree extracted and analysed
+- [x] Network connections reconstructed
+- [x] Suspicious artefacts identified
+- [x] Incident report written: `volatility/cases/memlab-case3.md`
+
+### Case 4 — Challenge
+- [x] Memory dump downloaded and verified
+- [x] Process tree extracted and analysed
+- [x] Network connections reconstructed
+- [x] Suspicious artefacts identified
+- [x] Incident report written: `volatility/cases/challenge-case.md`
 
 ---
 
